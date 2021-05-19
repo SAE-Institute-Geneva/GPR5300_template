@@ -111,9 +111,9 @@ namespace gl {
 		std::string path = "..\\";
 
 		std::ifstream ifs_vert(
-			path + "data\\shaders\\hello_triangle\\triangle.vert");
+			path + "data\\shaders\\hello_texture\\texture.vert");
 		std::ifstream ifs_frag(
-			path + "data\\shaders\\hello_triangle\\triangle.frag");
+			path + "data\\shaders\\hello_texture\\texture.frag");
 
 		if (!ifs_vert.is_open())
 		{
